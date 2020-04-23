@@ -1,0 +1,12 @@
+﻿{
+  "option1": "value1_from_json",
+  "option2": -1,
+  "subsection1": {
+    "suboption1": "subvalue1_from_json",
+    "suboption2": 200
+  },
+  "subsection2": {
+    "suboption1": "subvalue1_from_json",
+    "suboption2": 200
+  }
+}

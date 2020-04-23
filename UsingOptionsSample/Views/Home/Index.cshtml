@@ -1,0 +1,10 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<UsingOptionsSample.Config.MyOptions> optionAccessor
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <h1> @optionAccessor.Value.Option1</h1>
+    <h1>@ViewBag.Option2</h1>
+</div>
